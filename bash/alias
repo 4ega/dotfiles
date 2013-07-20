@@ -3,6 +3,13 @@
 #list
 alias ll='ls -al'
 
+#ps
+alias psa='ps aux'
+alias psg='ps aux | grep'
+
+#kill
+alias k9='kill -9'
+
 #mercurial
 alias hs='hg status'
 alias hf='hg fetch'
