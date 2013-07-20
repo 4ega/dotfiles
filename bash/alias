@@ -1,3 +1,8 @@
 # Aliases
 
 alias ll='ls -al';
+
+take () {
+	mkdir $1
+	cd $1
+}

@@ -1,3 +1,4 @@
 # Main file
 
 source ~/bin/dotfiles/bash/alias
+source ~/bin/dotfiles/bash/prompt
