@@ -1,6 +1,14 @@
 # Aliases
 
-alias ll='ls -al';
+#list
+alias ll='ls -al'
+
+#mercurial
+alias hs='hg status'
+alias hf='hg fetch'
+alias hp='hg push'
+alias hfp='hg fetch && hg push'
+alias hc='hg commit -m'
 
 take () {
 	mkdir $1
