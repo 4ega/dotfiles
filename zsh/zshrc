@@ -1,0 +1,5 @@
+# Main file
+
+source ~/bin/dotfiles/zsh/alias
+source ~/bin/dotfiles/zsh/prompt
+source ~/bin/dotfiles/zsh/path

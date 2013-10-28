@@ -2,3 +2,4 @@
 
 source ~/bin/dotfiles/bash/alias
 source ~/bin/dotfiles/bash/prompt
+source ~/bin/dotfiles/bash/path

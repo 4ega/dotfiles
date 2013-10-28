@@ -1,3 +1,15 @@
+set nocompatible               " be iMproved
+filetype off                   " required!
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" required! 
+Bundle 'gmarik/vundle'
+source ~/bin/dotfiles/vim/plugins/javascript
+source ~/bin/dotfiles/vim/plugins/colorschema
+
 " Make vim more useful
 set nocompatible
 
@@ -49,3 +61,10 @@ map <silent> <Esc> <Esc>:noh<CR>
 
 " Search and replace word under cursor (,*)
 nnoremap <leader>* :%s/\<<C-r><C-w>\>//<Left>
+
+set background=dark
+" solarized options 
+let g:solarized_termcolors = 256
+let g:solarized_visibility = "high"
+let g:solarized_contrast = "high"
+colorscheme solarized
